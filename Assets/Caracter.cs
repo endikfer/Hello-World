@@ -12,9 +12,9 @@ public class Caracter
 		Debug.Log("Hola, soy " + this.nombre);
 	}
 
-	~Caracter{
-		Debug.Log("Destroy");
-	}
+//	~Caracter{
+//		Debug.Log("Destroy");
+//	}
 
     public int HealthPoints1 { get => HealthPoints; set => HealthPoints = value; }
 }
