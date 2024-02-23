@@ -11,16 +11,14 @@ public class HelloWorld : MonoBehaviour
     Player Jugador;
     void Start()
     {
-        Enemigo = new Enemy("Darth Vader");
-        Jugador = new Player("Luke Skywalker");
-
- //       Enemigo = new Enemy("Darth Vader", 10, false);
- //       Jugador = new Player("Luke Skywalker", 10, false);
+        Enemigo = new Enemy("Darth Vader", 10, true);
+        Jugador = new Player("Luke Skywalker", 10, true);
     }
 
     // Update is called once per frame
     void Update()
     {
         Debug.Log("El nombre es "+Enemigo.nombre+", vida "+Enemigo.HealthPoints1);
+        Enemigo.TakeDamage(Enemigo.HealthPoints1);
     }
 }
