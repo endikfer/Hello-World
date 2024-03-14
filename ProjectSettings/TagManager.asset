@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - objeto
+  - rueda1
+  - rueda2
+  - rueda3
+  - rueda4
+  - ruedas
+  - chimenea
+  - cabina
+  - chasis
+  - suelo
   layers:
   - Default
   - TransparentFX
